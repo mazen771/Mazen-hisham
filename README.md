@@ -96,3 +96,4 @@ Open [http://localhost:8080](http://localhost:8080)
 - shadcn/ui
 - React Router DOM
 >>>>>>> c1d0dc62f4891357352b7c02ddd78af8f6191c9c
+# Mazen
