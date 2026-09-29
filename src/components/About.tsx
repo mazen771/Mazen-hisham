@@ -16,7 +16,11 @@ export const About = () => {
           {/* Left Content */}
           <div className="space-y-6">
             <p className="text-lg text-foreground/80 leading-relaxed">
+<<<<<<< HEAD
               I'm a dedicated AI Engineer with a strong foundation in machine learning, 
+=======
+              I'm a dedicated Data Scientist and AI enthusiast with a strong foundation in machine learning, 
+>>>>>>> c1d0dc62f4891357352b7c02ddd78af8f6191c9c
               data visualization, and predictive modeling. My passion lies in uncovering hidden patterns 
               within complex datasets and translating them into clear, actionable strategies.
             </p>

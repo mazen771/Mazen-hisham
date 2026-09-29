@@ -1,6 +1,10 @@
 import { Button } from "@/components/ui/button";
 import { ChevronDown, Github, Linkedin, Mail } from "lucide-react";
+<<<<<<< HEAD
 import profilePhoto from "@/assets/profile-photo.webp";
+=======
+import profilePhoto from "@/assets/profile-photo.png";
+>>>>>>> c1d0dc62f4891357352b7c02ddd78af8f6191c9c
 
 export const Hero = () => {
   const scrollToProjects = () => {
@@ -28,7 +32,11 @@ export const Hero = () => {
                 Mazen <span className="gradient-text">Hisham</span>
               </h1>
               <p className="text-xl text-muted-foreground mb-6">
+<<<<<<< HEAD
                 An AI Engineer
+=======
+                A Data Scientist & AI Enthusiast
+>>>>>>> c1d0dc62f4891357352b7c02ddd78af8f6191c9c
               </p>
             </div>
             
@@ -85,8 +93,13 @@ export const Hero = () => {
               <div className="w-80 h-80 lg:w-96 lg:h-96 glass-card rounded-3xl overflow-hidden neon-glow animate-pulse-neon">
                 <img 
                   src={profilePhoto} 
+<<<<<<< HEAD
                   alt="Mazen Hisham - AI Engineer"
                   className="w-full h-full object-cover" width={384} height={384} fetchPriority="high" decoding="async"
+=======
+                  alt="Mazen Hisham - Data Scientist & AI Enthusiast"
+                  className="w-full h-full object-cover"
+>>>>>>> c1d0dc62f4891357352b7c02ddd78af8f6191c9c
                 />
               </div>
               
