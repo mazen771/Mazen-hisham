@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Redirecting…</title>
+    <script>
+      // SPA fallback for GitHub Pages project sites.
+      // Stash the requested path and bounce to the app root; index.html restores it.
+      (function () {
+        var repo = "/Mazen-hisham";
+        var path = window.location.pathname + window.location.search + window.location.hash;
+        sessionStorage.setItem("spa-redirect", path);
+        window.location.replace(repo + "/");
+      })();
+    </script>
+  </head>
+  <body></body>
+</html>
